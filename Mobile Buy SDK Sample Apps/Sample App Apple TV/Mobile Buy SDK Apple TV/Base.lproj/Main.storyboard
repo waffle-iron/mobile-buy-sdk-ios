@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9058" systemVersion="15A282b" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="T2Z-Hk-5oK">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Oep-9z-H2Y">
+            <objects>
+                <collectionViewController id="T2Z-Hk-5oK" customClass="ViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="mxC-nK-W04">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wK6-Hg-6RF">
+                            <size key="itemSize" width="454" height="476"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="Cw8-5E-TEl" customClass="ProductCell">
+                                <rect key="frame" x="0.0" y="0.0" width="454" height="476"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="454" height="476"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="drE-fA-Hzb" customClass="BUYImageView">
+                                            <rect key="frame" x="8" y="8" width="438" height="360"/>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="360" id="h0w-bj-5mV"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVk-AZ-1Bm">
+                                            <rect key="frame" x="168" y="410" width="118" height="58"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <animations/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="leadingMargin" secondItem="drE-fA-Hzb" secondAttribute="leading" id="IGj-Uh-Jg1"/>
+                                    <constraint firstItem="vVk-AZ-1Bm" firstAttribute="centerX" secondItem="Cw8-5E-TEl" secondAttribute="centerX" id="VUJ-zd-H2E"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="vVk-AZ-1Bm" secondAttribute="bottom" id="VtR-JR-2Ib"/>
+                                    <constraint firstAttribute="topMargin" secondItem="drE-fA-Hzb" secondAttribute="top" id="rHk-Jx-dBv"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="drE-fA-Hzb" secondAttribute="trailing" id="t6o-F3-iSf"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageView" destination="drE-fA-Hzb" id="aRj-R5-F4X"/>
+                                    <outlet property="titleLabel" destination="vVk-AZ-1Bm" id="wqy-mO-GBi"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="T2Z-Hk-5oK" id="MZU-ph-0Lx"/>
+                            <outlet property="delegate" destination="T2Z-Hk-5oK" id="MwW-eh-1Vv"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fgb-wG-Lnq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-117" y="770"/>
+        </scene>
+    </scenes>
+</document>

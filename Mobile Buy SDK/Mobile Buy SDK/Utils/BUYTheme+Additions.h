@@ -274,12 +274,16 @@ extern CGFloat const kBuyBottomGradientHeightWithoutPageControl;
  */
 - (UIActivityIndicatorViewStyle)activityIndicatorViewStyle;
 
+#if TARGET_OS_IOS
+
 /**
  *  Navigation bar style for the product view
  *
  *  @return The navigation bar style appropriate for the theme
  */
 - (UIBarStyle)navigationBarStyle;
+
+#endif
 
 /**
  *  Apple Pay button style for the product view

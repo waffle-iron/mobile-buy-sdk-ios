@@ -405,7 +405,7 @@ NSString * const BUYVersionString = @"1.2";
 		}
 	}
 	
-#elif
+#else
 	block(nil, [NSError errorWithDomain:kShopifyError code:BUYShopifyError_NoApplePayTokenSpecified userInfo:nil]);
 #endif
 	return task;

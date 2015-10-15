@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE4C175E1BD01601005AAAD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4C175D1BD01601005AAAD3 /* main.m */; };
+		BE4C17611BD01601005AAAD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4C17601BD01601005AAAD3 /* AppDelegate.m */; };
+		BE4C17641BD01601005AAAD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4C17631BD01601005AAAD3 /* ViewController.m */; };
+		BE4C17671BD01601005AAAD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4C17651BD01601005AAAD3 /* Main.storyboard */; };
+		BE4C17691BD01601005AAAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4C17681BD01601005AAAD3 /* Assets.xcassets */; };
+		BE4C17C51BD019FF005AAAD3 /* Buy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4C17AE1BD01930005AAAD3 /* Buy.framework */; };
+		BE4C17C61BD019FF005AAAD3 /* Buy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE4C17AE1BD01930005AAAD3 /* Buy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BE4C17D51BD0231B005AAAD3 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4C17D41BD0231B005AAAD3 /* ProductCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE4C17A51BD01930005AAAD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE4C179B1BD0192F005AAAD3 /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 90F7BA681B0D1DAF0067864D;
+			remoteInfo = Playground;
+		};
+		BE4C17A71BD01930005AAAD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE4C179B1BD0192F005AAAD3 /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 90F592EC1B0D5EFE0026B382;
+			remoteInfo = "Mobile Buy SDK Tests";
+		};
+		BE4C17A91BD01930005AAAD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE4C179B1BD0192F005AAAD3 /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE9A64281B503C2F0033E558;
+			remoteInfo = "Buy Static";
+		};
+		BE4C17AB1BD01930005AAAD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE4C179B1BD0192F005AAAD3 /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 901931701BC5B9BC00D1134E;
+			remoteInfo = Buy;
+		};
+		BE4C17AD1BD01930005AAAD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE4C179B1BD0192F005AAAD3 /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE4C174C1BD00FE7005AAAD3;
+			remoteInfo = "Buy tvOS";
+		};
+		BE4C17B81BD019B8005AAAD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE4C179B1BD0192F005AAAD3 /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BE4C16BE1BD00FE7005AAAD3;
+			remoteInfo = "Buy tvOS";
+		};
+		BE4C17C71BD019FF005AAAD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE4C179B1BD0192F005AAAD3 /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BE4C16BE1BD00FE7005AAAD3;
+			remoteInfo = "Buy tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE4C17C91BD019FF005AAAD3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BE4C17C61BD019FF005AAAD3 /* Buy.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE4C17591BD01601005AAAD3 /* Mobile Buy SDK Apple TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Buy SDK Apple TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4C175D1BD01601005AAAD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE4C175F1BD01601005AAAD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE4C17601BD01601005AAAD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE4C17621BD01601005AAAD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE4C17631BD01601005AAAD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE4C17661BD01601005AAAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE4C17681BD01601005AAAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE4C176A1BD01601005AAAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4C179B1BD0192F005AAAD3 /* Mobile Buy SDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Mobile Buy SDK.xcodeproj"; path = "../../Mobile Buy SDK/Mobile Buy SDK.xcodeproj"; sourceTree = "<group>"; };
+		BE4C17D31BD0231B005AAAD3 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		BE4C17D41BD0231B005AAAD3 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE4C17561BD01601005AAAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4C17C51BD019FF005AAAD3 /* Buy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE4C17501BD01601005AAAD3 = {
+			isa = PBXGroup;
+			children = (
+				BE4C179B1BD0192F005AAAD3 /* Mobile Buy SDK.xcodeproj */,
+				BE4C175B1BD01601005AAAD3 /* Mobile Buy SDK Apple TV */,
+				BE4C175A1BD01601005AAAD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE4C175A1BD01601005AAAD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C17591BD01601005AAAD3 /* Mobile Buy SDK Apple TV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE4C175B1BD01601005AAAD3 /* Mobile Buy SDK Apple TV */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C175F1BD01601005AAAD3 /* AppDelegate.h */,
+				BE4C17601BD01601005AAAD3 /* AppDelegate.m */,
+				BE4C17621BD01601005AAAD3 /* ViewController.h */,
+				BE4C17631BD01601005AAAD3 /* ViewController.m */,
+				BE4C17D31BD0231B005AAAD3 /* ProductCell.h */,
+				BE4C17D41BD0231B005AAAD3 /* ProductCell.m */,
+				BE4C17651BD01601005AAAD3 /* Main.storyboard */,
+				BE4C17681BD01601005AAAD3 /* Assets.xcassets */,
+				BE4C176A1BD01601005AAAD3 /* Info.plist */,
+				BE4C175C1BD01601005AAAD3 /* Supporting Files */,
+			);
+			path = "Mobile Buy SDK Apple TV";
+			sourceTree = "<group>";
+		};
+		BE4C175C1BD01601005AAAD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C175D1BD01601005AAAD3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE4C179C1BD0192F005AAAD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C17A61BD01930005AAAD3 /* Playground.app */,
+				BE4C17A81BD01930005AAAD3 /* Mobile Buy SDK Tests.xctest */,
+				BE4C17AA1BD01930005AAAD3 /* Buy.framework */,
+				BE4C17AC1BD01930005AAAD3 /* Buy.framework */,
+				BE4C17AE1BD01930005AAAD3 /* Buy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE4C17581BD01601005AAAD3 /* Mobile Buy SDK Apple TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4C176D1BD01601005AAAD3 /* Build configuration list for PBXNativeTarget "Mobile Buy SDK Apple TV" */;
+			buildPhases = (
+				BE4C17551BD01601005AAAD3 /* Sources */,
+				BE4C17561BD01601005AAAD3 /* Frameworks */,
+				BE4C17571BD01601005AAAD3 /* Resources */,
+				BE4C17C91BD019FF005AAAD3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE4C17B91BD019B8005AAAD3 /* PBXTargetDependency */,
+				BE4C17C81BD019FF005AAAD3 /* PBXTargetDependency */,
+			);
+			name = "Mobile Buy SDK Apple TV";
+			productName = "Mobile Buy SDK Apple TV";
+			productReference = BE4C17591BD01601005AAAD3 /* Mobile Buy SDK Apple TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE4C17511BD01601005AAAD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Shopify;
+				TargetAttributes = {
+					BE4C17581BD01601005AAAD3 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = BE4C17541BD01601005AAAD3 /* Build configuration list for PBXProject "Mobile Buy SDK Apple TV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE4C17501BD01601005AAAD3;
+			productRefGroup = BE4C175A1BD01601005AAAD3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BE4C179C1BD0192F005AAAD3 /* Products */;
+					ProjectRef = BE4C179B1BD0192F005AAAD3 /* Mobile Buy SDK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BE4C17581BD01601005AAAD3 /* Mobile Buy SDK Apple TV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BE4C17A61BD01930005AAAD3 /* Playground.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Playground.app;
+			remoteRef = BE4C17A51BD01930005AAAD3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE4C17A81BD01930005AAAD3 /* Mobile Buy SDK Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mobile Buy SDK Tests.xctest";
+			remoteRef = BE4C17A71BD01930005AAAD3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE4C17AA1BD01930005AAAD3 /* Buy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Buy.framework;
+			remoteRef = BE4C17A91BD01930005AAAD3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE4C17AC1BD01930005AAAD3 /* Buy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Buy.framework;
+			remoteRef = BE4C17AB1BD01930005AAAD3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE4C17AE1BD01930005AAAD3 /* Buy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Buy.framework;
+			remoteRef = BE4C17AD1BD01930005AAAD3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE4C17571BD01601005AAAD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4C17691BD01601005AAAD3 /* Assets.xcassets in Resources */,
+				BE4C17671BD01601005AAAD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE4C17551BD01601005AAAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4C17641BD01601005AAAD3 /* ViewController.m in Sources */,
+				BE4C17D51BD0231B005AAAD3 /* ProductCell.m in Sources */,
+				BE4C17611BD01601005AAAD3 /* AppDelegate.m in Sources */,
+				BE4C175E1BD01601005AAAD3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE4C17B91BD019B8005AAAD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Buy tvOS";
+			targetProxy = BE4C17B81BD019B8005AAAD3 /* PBXContainerItemProxy */;
+		};
+		BE4C17C81BD019FF005AAAD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Buy tvOS";
+			targetProxy = BE4C17C71BD019FF005AAAD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE4C17651BD01601005AAAD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE4C17661BD01601005AAAD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE4C176B1BD01601005AAAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		BE4C176C1BD01601005AAAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE4C176E1BD01601005AAAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "${PROJECT_DIR}/../**";
+				INFOPLIST_FILE = "Mobile Buy SDK Apple TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shopify.Mobile-Buy-SDK-Apple-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE4C176F1BD01601005AAAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "${PROJECT_DIR}/../**";
+				INFOPLIST_FILE = "Mobile Buy SDK Apple TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shopify.Mobile-Buy-SDK-Apple-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE4C17541BD01601005AAAD3 /* Build configuration list for PBXProject "Mobile Buy SDK Apple TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4C176B1BD01601005AAAD3 /* Debug */,
+				BE4C176C1BD01601005AAAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4C176D1BD01601005AAAD3 /* Build configuration list for PBXNativeTarget "Mobile Buy SDK Apple TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4C176E1BD01601005AAAD3 /* Debug */,
+				BE4C176F1BD01601005AAAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE4C17511BD01601005AAAD3 /* Project object */;
+}

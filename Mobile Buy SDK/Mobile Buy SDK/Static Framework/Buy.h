@@ -40,7 +40,6 @@ FOUNDATION_EXPORT const unsigned char BuyDynamicVersionString[];
 #import <Buy/BUYGiftCard.h>
 #import <Buy/BUYLineItem.h>
 #import <Buy/BUYClient.h>
-#import <Buy/BUYClient+Test.h>
 #import <Buy/BUYImage.h>
 #import <Buy/BUYOption.h>
 #import <Buy/BUYOptionValue.h>
@@ -49,15 +48,20 @@ FOUNDATION_EXPORT const unsigned char BuyDynamicVersionString[];
 #import <Buy/BUYProductVariant.h>
 #import <Buy/BUYShippingRate.h>
 #import <Buy/BUYShop.h>
-#import <Buy/BUYStoreViewController.h>
 #import <Buy/BUYTaxLine.h>
+#import <Buy/BUYCartLineItem.h>
+#import <Buy/BUYCollection.h>
+#import <Buy/BUYMaskedCreditCard.h>
+#import <Buy/BUYError.h>
+#import <Buy/BUYImageView.h>
+
+#if TARGET_OS_IOS
+#import <Buy/BUYClient+Test.h>
+#import <Buy/BUYStoreViewController.h>
 #import <Buy/BUYViewController.h>
 #import <Buy/BUYApplePayAdditions.h>
 #import <Buy/BUYApplePayHelpers.h>
 #import <Buy/BUYPaymentButton.h>
 #import <Buy/BUYProductViewController.h>
 #import <Buy/BUYTheme.h>
-#import <Buy/BUYCartLineItem.h>
-#import <Buy/BUYCollection.h>
-#import <Buy/BUYMaskedCreditCard.h>
-#import <Buy/BUYError.h>
+#endif
